@@ -1,14 +1,18 @@
-# Keeper App 📝
+# Keeper App
 
 A simple, fast note-taking web application built with React and Vite. Create, organize, and manage your notes with an intuitive user interface powered by Material-UI.
 
-## Features ✨
+## Features 
 
 - **Create Notes** - Quickly add new notes with title and content
 - **Delete Notes** - Remove notes you no longer need with a single click
 - **Responsive Design** - Beautiful Material-UI components that work seamlessly
 - **Fast Performance** - Built with Vite for lightning-fast development and production builds
 - **Real-time Updates** - Instant feedback as you create and manage notes
+
+## Screenshot
+
+![Keeper App Screenshot](images/screenshot.png)
 
 ## Tech Stack 🛠️
 
@@ -18,7 +22,7 @@ A simple, fast note-taking web application built with React and Vite. Create, or
 - **Emotion** - CSS-in-JS library for styling
 - **ESLint** - Code quality and consistency
 
-## Getting Started 🚀
+## Getting Started
 
 ### Prerequisites
 
@@ -68,7 +72,7 @@ Check code quality:
 npm run lint
 ```
 
-## Project Structure 📁
+## Project Structure
 
 ```
 keeper-app/
@@ -89,7 +93,7 @@ keeper-app/
 └── eslint.config.js      # ESLint configuration
 ```
 
-## Usage 💡
+## Usage
 
 1. **Create a Note**: Fill in the title and content fields in the create area and click the add button
 2. **View Notes**: Your notes appear below the create area
