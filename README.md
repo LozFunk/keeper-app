@@ -2,27 +2,18 @@
 
 A simple, fast note-taking web application built with React and Vite. Create, organize, and manage your notes with an intuitive user interface powered by Material-UI.
 
-<<<<<<< HEAD
 ## Features 
-=======
-## Features
->>>>>>> 4d8d7f5233933c05aad923299e100190b9dccbda
 
 - **Create Notes** - Quickly add new notes with title and content
 - **Delete Notes** - Remove notes you no longer need with a single click
 - **Responsive Design** - Beautiful Material-UI components that work seamlessly
 - **Fast Performance** - Built with Vite for lightning-fast development and production builds
-- **Real-time Updates** - Instant feedback as you create and manage notes
 
-<<<<<<< HEAD
 ## Screenshot
 
 ![Keeper App Screenshot](images/screenshot.png)
 
-## Tech Stack 🛠️
-=======
 ## Tech Stack
->>>>>>> 4d8d7f5233933c05aad923299e100190b9dccbda
 
 - **React 19.2** - Modern JavaScript library for building user interfaces
 - **Vite** - Next generation frontend build tool with lightning-fast HMR
