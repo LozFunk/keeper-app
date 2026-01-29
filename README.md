@@ -1,17 +1,103 @@
-# React + Vite
+# Keeper App 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, fast note-taking web application built with React and Vite. Create, organize, and manage your notes with an intuitive user interface powered by Material-UI.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Create Notes** - Quickly add new notes with title and content
+- **Delete Notes** - Remove notes you no longer need with a single click
+- **Responsive Design** - Beautiful Material-UI components that work seamlessly
+- **Fast Performance** - Built with Vite for lightning-fast development and production builds
+- **Real-time Updates** - Instant feedback as you create and manage notes
 
-## React Compiler
+## Tech Stack 🛠️
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19.2** - Modern JavaScript library for building user interfaces
+- **Vite** - Next generation frontend build tool with lightning-fast HMR
+- **Material-UI (MUI)** - Comprehensive React component library
+- **Emotion** - CSS-in-JS library for styling
+- **ESLint** - Code quality and consistency
 
-## Expanding the ESLint configuration
+## Getting Started 🚀
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# keeper-app
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/keeper-app.git
+cd keeper-app
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+### Development
+
+Start the development server with hot module replacement:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+### Build
+
+Create a production-ready build:
+```bash
+npm run build
+```
+
+### Preview
+
+Preview the production build locally:
+```bash
+npm run preview
+```
+
+### Linting
+
+Check code quality:
+```bash
+npm run lint
+```
+
+## Project Structure 📁
+
+```
+keeper-app/
+├── src/
+│   ├── App.jsx           # Main application component
+│   ├── Header.jsx        # Header component
+│   ├── CreateArea.jsx    # Form for creating new notes
+│   ├── Note.jsx          # Individual note display component
+│   ├── Footer.jsx        # Footer component
+│   ├── App.css           # Application styles
+│   ├── index.css         # Global styles
+│   ├── main.jsx          # Entry point
+│   └── assets/           # Static assets
+├── public/
+│   └── styles.css        # Public styles
+├── package.json          # Project dependencies
+├── vite.config.js        # Vite configuration
+└── eslint.config.js      # ESLint configuration
+```
+
+## Usage 💡
+
+1. **Create a Note**: Fill in the title and content fields in the create area and click the add button
+2. **View Notes**: Your notes appear below the create area
+3. **Delete a Note**: Click the delete icon on any note to remove it
+
+## License 
+
+This project is open source and available under the MIT License.
+
+---
+

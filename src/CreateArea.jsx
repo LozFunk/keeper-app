@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import AddIcon from "@mui/icons-material/Add";
+import { Fab } from "@mui/material";
+import { Zoom } from "@mui/material";
 
 function CreateArea({ onAdd }) {
   const [title, setTitle] = useState("");
@@ -12,7 +15,7 @@ function CreateArea({ onAdd }) {
   };
 
   return (
-    <form>
+    <form class="create-note">
       <input 
         type="text" 
         placeholder="Title" 
@@ -25,9 +28,9 @@ function CreateArea({ onAdd }) {
         value={content}
         onChange={(e) => setContent(e.target.value)}
       /> 
-      <button onClick={handleClick}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
-  <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg></button>  
+      <Zoom in={true}>
+      <Fab onClick={handleClick}>< AddIcon /></Fab>  
+      </Zoom>
     </form>
   );
 }
